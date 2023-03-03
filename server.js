@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 const PORT = process.env.PORT || 3000;
-const NEWS_API_KEY = '7caa5dbd3be04b8a8042811b9910adde';
+const NEWS_API_KEY = 'Your Api Key';
 
 app.use(express.static(__dirname + '/public'));
 
